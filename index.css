@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(55, 181, 185);
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.followersandall {
+  background-color: white;
+  margin-left: 60px;
+  margin-top: 30px;
+}
+.twentysix {
+  color: lightgray;
+  background-color: white;
+}
+#victor {
+  border-radius: 100%;
+  box-shadow: white;
+  margin-top: -70px;
+}
+.card-container {
+  background: white;
+  border-radius: 14px;
+  box-shadow: black;
+  width: 300px;
+  margin-top: 200px;
+  margin-left: 25px;
+  margin-right: 24px;
+  position: relative;
+  z-index: 10;
+  padding: 24px;
+}
+.first-circle-container {
+  /* background-color: lightseagreen;
+  width: 700px;
+  height: 700px;
+  object-fit: contain;
+  border-radius: 100%;
+  position: absolute;
+  top: -350px;
+  left: -450px; */
+  background-image: url("./images/bg-pattern-top.svg");
+  width: 100px;
+  height: 100px;
+}
+
+.second-circle-container {
+  /* background-color: lightseagreen;
+  width: 700px;
+  height: 700px;
+  object-fit: contain;
+  border-radius: 100%;
+  position: absolute;
+  right: -450px;
+  bottom: -350px; */
+}
+.circle-bottom {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  left: 200px;
+  bottom: -100px;
+}
+.circle-top {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  right: 200px;
+  top: -100px;
+}
+.card-background {
+  margin-left: 23px;
+  margin-bottom: -240px;
+  border-radius: 30px;
+}
