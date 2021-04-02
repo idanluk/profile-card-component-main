@@ -3,63 +3,46 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- displays site properly based on user's device -->
-
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-    <!-- the actual icon-->
-    <a
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="./images/favicon-32x32.png"
-    ></a>
-    <!-- the actual icon-->
-    <title>Frontend Mentor | Profile card component</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <link rel="stylesheet" href="index.css" />
+    <title>Frontend Mentor | Profile card component</title>
   </head>
   <body>
-    <div class="wrapper">
-      <img class="card-background" src="./images/bg-pattern-card.svg" alt="" />
-      <img class="circle-top" src="./images/bg-pattern-top.svg" alt="save" />
+    <main class="container">
       <div class="card-container">
-        <img id="victor" src="./images/image-victor.jpg" alt="victor's image" />
-        <h3><strong>Victor Crest</strong> <span class="twentysix">26</span></h3>
-        <span class="twentysix">London</span>
-        <br />
-        <div>
-          <table class="followersandall">
-            <thead class="followersandall">
-              <tr>
-                <th>80K</th>
-                <th>803K</th>
-                <th>1.4K</th>
-              </tr>
-            </thead>
-            <tbody class="followersandall">
-              <td>Followers</td>
-              <td>Likes</td>
-              <td>Photos</td>
-            </tbody>
-          </table>
-        </div>
+        <div class="card-container-background"></div>
+        <img
+          class="card-container-pic"
+          src="./images/image-victor.jpg"
+          alt="person profile picture"
+        />
+        <div class="card-container-content">
+          <div class="person-details">
+            <div class="name">Victor Crest <span class="age">26</span></div>
+            <div class="location">London</div>
+          </div>
 
-        <div class="attribution">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="#">Idan Luk</a>.
+          <div class="stats">
+            <div class="stat-container">
+              <div class="number">80k</div>
+              <div class="description">Followers</div>
+            </div>
+            <div class="stat-container">
+              <div class="number">803k</div>
+              <div class="description">Likes</div>
+            </div>
+            <div class="stat-container">
+              <div class="number">1.4k</div>
+              <div class="description">Photos</div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="first-circle-container"></div>
-      <div class="second-circle-container"></div>
-    </div>
-    <img class="circle-bottom" src="./images/bg-pattern-bottom.svg" alt="" />
+    </main>
   </body>
 </html>
